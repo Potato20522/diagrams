@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T12:21:09.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="fbKYVpLJ5IQYHM3OVGPp" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-14T01:22:34.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="Js3kGlGKUevgO1CPfgL9" version="15.9.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="数据源配置">
     <mxGraphModel dx="981" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -43,7 +43,7 @@
           <mxGeometry x="320" y="230" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kL6z5g55hT3dl8oGcxsY-9" value="&lt;h1&gt;配置过程&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="-140" width="110" height="40" as="geometry" />
+          <mxGeometry x="510" y="-140" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kL6z5g55hT3dl8oGcxsY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kL6z5g55hT3dl8oGcxsY-10" target="kL6z5g55hT3dl8oGcxsY-1">
           <mxGeometry relative="1" as="geometry" />
@@ -128,6 +128,45 @@
         </mxCell>
         <mxCell id="kL6z5g55hT3dl8oGcxsY-55" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;JTA事务管理器&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="782.5" y="-60" width="147.5" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MNEPS0TlJPYCzAP3WAUg" name="@Transactional">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
+      <root>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-0" />
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-1" parent="JtDxf6zM2GqJ0ecSL1Cn-0" />
+        <object label="" id="JtDxf6zM2GqJ0ecSL1Cn-9">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1A1A1A;strokeColor=#182E3E;fontStyle=0" edge="1" parent="JtDxf6zM2GqJ0ecSL1Cn-1" source="JtDxf6zM2GqJ0ecSL1Cn-3" target="JtDxf6zM2GqJ0ecSL1Cn-10">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="380" y="430" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-3" value="@Transactional" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="JtDxf6zM2GqJ0ecSL1Cn-1">
+          <mxGeometry x="57.5" y="370" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-7" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;labelBackgroundColor=#EEEEEE;strokeColor=#182E3E;fontColor=#1A1A1A;" edge="1" parent="JtDxf6zM2GqJ0ecSL1Cn-1" source="JtDxf6zM2GqJ0ecSL1Cn-4" target="JtDxf6zM2GqJ0ecSL1Cn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-4" value="Spring&lt;br&gt;TransactionManager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#F5AB50;strokeColor=#909090;fontColor=#1A1A1A;" vertex="1" parent="JtDxf6zM2GqJ0ecSL1Cn-1">
+          <mxGeometry x="55" y="550" width="215" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;AOP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1A1A1A;" vertex="1" parent="JtDxf6zM2GqJ0ecSL1Cn-1">
+          <mxGeometry x="300" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-14" value="" style="group" vertex="1" connectable="0" parent="JtDxf6zM2GqJ0ecSL1Cn-1">
+          <mxGeometry x="390" y="292.5" width="280" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;业务逻辑&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="JtDxf6zM2GqJ0ecSL1Cn-14">
+          <mxGeometry width="280" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-12" value="&lt;b&gt;TransactionManager开启事务&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=16;fontColor=#1A1A1A;strokeColor=#909090;fillColor=#F5AB50;" vertex="1" parent="JtDxf6zM2GqJ0ecSL1Cn-14">
+          <mxGeometry width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="JtDxf6zM2GqJ0ecSL1Cn-13" value="&lt;b&gt;TransactionManager提交或回滚事务&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=16;fontColor=#1A1A1A;strokeColor=#909090;fillColor=#F5AB50;" vertex="1" parent="JtDxf6zM2GqJ0ecSL1Cn-14">
+          <mxGeometry y="200" width="280" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
