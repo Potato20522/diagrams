@@ -1,1 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T01:43:36.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" version="15.9.6" etag="w6YzBZkrLFuKUCZE2fES" type="github"><diagram id="JTs2WEUiS6jVImfvksR3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T02:37:42.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="Vsqw8ZKGPUVzurt67xs4" version="15.9.6" type="github">
+  <diagram id="JTs2WEUiS6jVImfvksR3" name="Page-1">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-1" target="CCUzzj7hYh8cNGUQO6t1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-1" target="CCUzzj7hYh8cNGUQO6t1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-1" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-2" target="CCUzzj7hYh8cNGUQO6t1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;QueryService&lt;br&gt;类&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-4" target="CCUzzj7hYh8cNGUQO6t1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-4" value="&lt;font style=&quot;font-size: 16px&quot;&gt;CommandService&lt;br&gt;类&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-6" target="CCUzzj7hYh8cNGUQO6t1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-6" value="&lt;b&gt;TODO&lt;br&gt;AutoController&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="172.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-8" target="CCUzzj7hYh8cNGUQO6t1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-8" value="&lt;b&gt;TODO&lt;br&gt;AutoController&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="172.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-12" target="CCUzzj7hYh8cNGUQO6t1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-12" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Gateway接口&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-16" target="CCUzzj7hYh8cNGUQO6t1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-16" value="&lt;font style=&quot;font-size: 16px&quot;&gt;数据库增删改查接口&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-18" value="Mybatis.xml" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-23" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Query时&lt;/b&gt;：输入Requset对象, 输出Entity对象&lt;br&gt;&lt;b&gt;Command:&amp;nbsp;&lt;/b&gt;输入Entity对象, 输出Entity对象&lt;br&gt;&lt;b&gt;RPC时&lt;/b&gt;：输入Requset对象,输出Response对象&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="310" width="280" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-25" value="输入Qusry对象&lt;br&gt;输出Dto对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-27" value="输入Command对象&lt;br&gt;输出Dto对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-34" value="TODO&lt;br&gt;在源码层面可省略" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="35" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-35" target="CCUzzj7hYh8cNGUQO6t1-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-35" target="CCUzzj7hYh8cNGUQO6t1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-35" target="CCUzzj7hYh8cNGUQO6t1-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-35" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Gateway实现类&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-39" value="事件发布和订阅" style="ellipse;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="116" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-43" value="&lt;font style=&quot;font-size: 16px&quot;&gt;RPC调用接口&lt;br&gt;（自动实现类）&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-48" target="CCUzzj7hYh8cNGUQO6t1-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-48" value="&lt;font style=&quot;font-size: 16px&quot;&gt;IG的gRPC调用接口&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="CCUzzj7hYh8cNGUQO6t1-50" target="CCUzzj7hYh8cNGUQO6t1-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-50" value="&lt;span&gt;IG的gRPC调用实现类&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-52" value="CommandHandler&lt;br&gt;推送消息到前端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCUzzj7hYh8cNGUQO6t1-55" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Service方法复用导致的平层互调问题&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;解决方案：&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 16px&quot;&gt;&lt;li&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;一个Service方法里可以调多个用Gateway接口&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;GateWay实现类里可以调用多个数据库增删改查接口，增删改查需要复用的就下放到&lt;/font&gt;&lt;/b&gt;&lt;b&gt;Gateway实现类里&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;例子：&lt;br&gt;ServiceA中的某个方法，调用了Gateway1(请求数据库)，&lt;/b&gt;&lt;b&gt;Gateway2(请求IG)，&lt;/b&gt;&lt;b&gt;调用了Gateway3&lt;/b&gt;&lt;b&gt;(又请求数据库)&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="460" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
