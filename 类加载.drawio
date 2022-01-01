@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-01-01T15:16:20.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" version="16.0.0" etag="fUwPu0cRoY1ARO7gyUF6" type="github"><diagram id="GI8WzglQ53T2BdxhHhrQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-01T15:25:11.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="xHv-qWPqPqsXqG1xIvRc" version="16.0.0" type="github">
+  <diagram id="GI8WzglQ53T2BdxhHhrQ" name="类加载">
+    <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLKFZw1zaFaMWIGEqZf1-1" target="qLKFZw1zaFaMWIGEqZf1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-1" value="分配InstanceKlass所需内存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="30" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLKFZw1zaFaMWIGEqZf1-4" target="qLKFZw1zaFaMWIGEqZf1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-4" value="使用parse_stream()得到的数据填充InstanceKlass的字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLKFZw1zaFaMWIGEqZf1-5" target="qLKFZw1zaFaMWIGEqZf1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-5" value="如果引入了miranda方法，则设置对应的flag" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLKFZw1zaFaMWIGEqZf1-7" target="qLKFZw1zaFaMWIGEqZf1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-7" value="初始化itable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLKFZw1zaFaMWIGEqZf1-9" target="qLKFZw1zaFaMWIGEqZf1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-9" value="初始化OopMapBlock" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLKFZw1zaFaMWIGEqZf1-11" target="qLKFZw1zaFaMWIGEqZf1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-11" value="分配klass对应的java.lang.Class,在Java层面描述类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="500" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qLKFZw1zaFaMWIGEqZf1-13" target="qLKFZw1zaFaMWIGEqZf1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-13" value="生成Java8的default方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="590" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-15" value="得到完整的InstanceKlass" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLKFZw1zaFaMWIGEqZf1-18" value="&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; transition-duration: 0.2s ; transition-property: , , , , , , ; overflow: auto ; font-family: &amp;#34;courier new&amp;#34; ; overflow-wrap: break-word ; text-align: left&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; line-height: 1.5&quot;&gt;类加载阶段就是由类加载器负责根据一个类的全限定名来读取此类的&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; transition-duration: 0.2s ; transition-property: , , , , , , ; overflow: auto ; font-family: &amp;#34;courier new&amp;#34; ; overflow-wrap: break-word ; text-align: left&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; line-height: 1.5&quot;&gt;二进制字节流到JVM内部，&lt;/span&gt;并存储在运行时内存区的方法区，&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px ; margin-bottom: 0px ; padding: 0px ; transition-duration: 0.2s ; transition-property: , , , , , , ; overflow: auto ; font-family: &amp;#34;courier new&amp;#34; ; overflow-wrap: break-word ; text-align: left&quot;&gt;然后将其转换为一个与目标类型对应的java.lang.Class对象实例&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="390" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
