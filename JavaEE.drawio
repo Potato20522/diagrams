@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-01-03T13:10:19.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" version="16.1.2" etag="5aAYJQF80dnVdAReStVN" type="github"><diagram id="AUMVI609OCRYyDnqC0ys">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-03T14:17:06.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="2yz8_Ss-NueejWmJInGP" version="16.1.2" type="github" pages="2">
+  <diagram id="AUMVI609OCRYyDnqC0ys" name="JavaEE">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-1" value="JDBC（Java Database Connectivity）&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(77, 77, 77); font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;数据库连接&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-3" value="JNDI（Java Naming and Directory Interfaces）&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#4d4d4d&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Java 的命名和目录接口&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-4" value="EJB（Enterprise JavaBean）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-5" value="RMI（Remote Method Invoke）&lt;br&gt;远程方法调用" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-6" value="Java IDL（Interface Description Language）/CORBA（Common Object Broker Architecture）Java 接口定义语言/公用对象请求代理程序体系结构" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-7" value="JSP（Java Server Pages）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-8" value="Servlet" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-9" value="XML（Extensible Markup Language）可扩展白标记语言" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-10" value="JMS（Java Message Service）&lt;br&gt;Java 消息服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="340" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-11" value="JTA（Java Transaction API）&lt;br&gt;Java 事务 API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="440" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-12" value="JTS（Java Transaction Service）Java 事务服务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="540" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-13" value="JavaMail" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-14" value="JAF（JavaBean Activation Framework）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-GPaqXqmBwPM7UlhtY6U-15" value="JPA (Java Persistence API)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="640" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FvDOgE93BblOZn2LPgfN" name="Jakarta EE">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="DB8st5BbVS5hR9joXztH-0" />
+        <mxCell id="DB8st5BbVS5hR9joXztH-1" parent="DB8st5BbVS5hR9joXztH-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
